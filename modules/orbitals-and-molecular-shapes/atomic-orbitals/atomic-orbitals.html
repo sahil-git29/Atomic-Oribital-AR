@@ -80,9 +80,6 @@
     <!-- Header -->
     <header id="header">
       <div class="row">
-        <figure>
-          <atom-icon></atom-icon>
-        </figure>
         <h1
           class="activity-title"
           data-i18n="orbitals.atomicOrbitals.title"
@@ -95,7 +92,7 @@
     <loader-component></loader-component>
 
     <!-- Feedback Modal -->
-    <feedback-prompt></feedback-prompt>
+    <!-- <feedback-prompt></feedback-prompt> -->
 
     <!-- camera controls -->
     <div id="cam-container" class="camera-container small-menu hide column">
@@ -123,10 +120,10 @@
 
     <!-- Side buttons -->
     <div class="side-menu column">
-      <camera-icon class="icon-margin"></camera-icon>
+      <!-- <camera-icon class="icon-margin"></camera-icon> -->
       <reset-activity class="icon-margin"></reset-activity>
       <zoom-icon class="icon-margin"></zoom-icon>
-      <toggle-menu class="icon-margin"></toggle-menu>
+      <!-- <toggle-menu class="icon-margin"></toggle-menu> -->
     </div>
 
     <!-- Rotation controls -->
@@ -209,10 +206,7 @@
               <option>Octahedral</option>
             </optgroup>
           </select>
-          <enable-gestures
-            class="gesture-icon left-margin"
-            id="marker1"
-          ></enable-gestures>
+         
         </div>
       </div>
       <span class="line"></span>
@@ -294,14 +288,14 @@
           ></enable-gestures>
         </div>
       </div>
-      <div class="extra-info">
+      <!-- <div class="extra-info">
         <toggle-instructions class="extra-info-icon"></toggle-instructions>
         <toggle-description class="extra-info-icon"></toggle-description>
-      </div>
+      </div> -->
     </div>
 
     <!-- Overlays -->
-    <activity-overlay id="instructions" default="open" type="instructions">
+    <!-- <activity-overlay id="instructions" default="open" type="instructions">
       <span slot="title" data-i18n="orbitals.atomicOrbitals.title"></span>
       <span
         slot="instructions"
@@ -319,7 +313,7 @@
 
     <activity-overlay id="menu" default="hidden" type="menu">
       <span slot="title">MoleculARweb</span>
-    </activity-overlay>
+    </activity-overlay> -->
 
     <a-scene
       embedded

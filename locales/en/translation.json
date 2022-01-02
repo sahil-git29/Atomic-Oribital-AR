@@ -8,8 +8,8 @@
     "markers": "Markers"
   },
   "app": {
-    "title": "MoleculARweb",
-    "description": "A website for chemistry and biology education through augmented reality, available out of the box in commodity devices",
+    "title": "AR Chemistry Web application",
+    "description": "A website for chemistry education through augmented reality built for 8th sem course project at IIIT Manipur",
     "policy": "Copyright © 2020 Laboratory for biomolecular modeling, EPFL. All rights reserved.",
     "policyMsg": "We use cookies to improve your experience on our site. By using MoleculARweb you agree to our privacy policy.",
     "learnMore": "Learn more",
@@ -36,7 +36,7 @@
     "selectActivity": "Select an activity and enjoy!"
   },
   "orbitals": {
-    "title": "Orbitals and molecular shapes",
+    "title": "Orbitals shapes",
     "atomicOrbitals": {
       "title": "Atomic orbitals and VSEPR theory",
       "description": " Visualize and compare all the most common pure and hybrid atomic orbitals, and the basic molecular geometries as in the valence shell electron repulsion theory (VSEPR). ",

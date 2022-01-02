@@ -1,8 +1,8 @@
 /* Color palette */
 :root {
-  --primary: #5C45EB;
-  --primarydark: #4432B0;
-  --primarylight: rgba(92, 69, 235, 0.8);
+  --primary: #459beb;
+  --primarydark: #3273b0;
+  --primarylight: rgba(69, 188, 235, 0.8);
   --secondary: #9BF99F;
   --lightgray: #6B707A;
   --lightergray: rgba(241, 239, 255, 0.25);
